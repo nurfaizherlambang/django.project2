@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    height: 40px;
+}
+
+#navbar h1 {
+    font-size: medium;
+}
+
+#main {
+    margin-top: 40px;
+    padding: 40px;
+}
+
+#flights {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.flight {
+    padding: 20px 40px;
+    margin: 15px 0;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.flight:hover {
+    background-color: orange;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+}
+
+input[type="submit"] {
+    padding: 5px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    background-color: orange;
+}
+
+#back {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    width: 120px;
+    padding: 10px;
+    font-size: small;
+}
+
+#info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxed h1 {
+    font-size: large;
+}
+
+.boxed h2 {
+    font-size: large;
+}
+
+#passenger-info h2 {
+    font-size: large;
+}
+
+.infos {
+    list-style: none;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.infos li {
+    padding-top: 10px;
+}
+
+.top {
+    background-color: orange;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 20px;
+}
+
+.boxed {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.inf {
+    padding: 10px 0 20px 0;
+}
+
+#formlayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formlayout form {
+    padding-left: 20px;
+}
+
+#backs {
+    display: flex;
+    justify-content: center;
+}
+
+#flights a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
